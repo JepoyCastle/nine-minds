@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/nine-minds/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f3ecdf" />
+    <title>Nine Minds</title>
+    <meta
+      name="description"
+      content="A ten-minute self-portrait across Howard Gardner's nine intelligences. Free, private, and made to share."
+    />
+    <meta property="og:title" content="Nine Minds" />
+    <meta
+      property="og:description"
+      content="A ten-minute self-portrait across nine kinds of intelligence. Free, private, and made to share."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jepoycastle.github.io/nine-minds/" />
+    <meta property="og:image" content="https://jepoycastle.github.io/nine-minds/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Nine Minds" />
+    <meta
+      name="twitter:description"
+      content="A ten-minute self-portrait across nine kinds of intelligence. Free, private, and made to share."
+    />
+    <meta name="twitter:image" content="https://jepoycastle.github.io/nine-minds/og.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      try {
+        var theme = localStorage.getItem('nine-minds-theme')
+        if (theme !== 'light' && theme !== 'dark') {
+          theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+        }
+        if (theme === 'dark') document.documentElement.classList.add('dark')
+        document.documentElement.style.colorScheme = theme
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="/nine-minds/assets/index-D3GzgA4J.js"></script>
+    <link rel="stylesheet" crossorigin href="/nine-minds/assets/index-C62PPNrb.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
